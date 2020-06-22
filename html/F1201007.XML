@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ZVIT>
+  <TRANSPORT>
+    <VERSION>4.1</VERSION>
+    <CREATEDATE>09.04.2015</CREATEDATE>
+  </TRANSPORT>
+  <ORG>
+    <FIELDS>
+      <EDRPOU>1862702869</EDRPOU>
+    </FIELDS>
+    <CARD>
+      <FIELDS>
+        <PERTYPE>0</PERTYPE>
+        <PERDATE>01.03.2015</PERDATE>
+        <DOCID>6D2BFC55-05F8-41ED-A230-6FDB618B0313</DOCID>
+        <CHARCODE>F1201007</CHARCODE>
+      </FIELDS>
+      <DOCUMENT>
+
+      </DOCUMENT>
+    </CARD>
+  </ORG>
+</ZVIT>

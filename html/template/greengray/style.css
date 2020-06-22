@@ -1,0 +1,166 @@
+BODY.Default
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Arial;
+    COLOR: #000000;
+	BACKGROUND-COLOR: #29b21f;
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-BOTTOM: 0px;
+}
+BODY.FrameLeft
+{
+    FONT-SIZE: 16px;
+    FONT-FAMILY: Arial;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #262626;
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-BOTTOM: 0px;
+	MARGIN-RIGHT: 10px;
+}
+
+
+A
+{
+   COLOR: #000000;
+   text-decoration: none;
+}
+A.Midle
+{
+	FONT-SIZE:14px;
+}
+
+A.SimpleColor
+{
+	COLOR: #000000;
+}
+
+A.Pasive
+{
+	COLOR: #c6c3c3;
+}
+
+TABLE.NoMargin
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+
+TABLE.Border1
+{
+		border-collapse: collapse;
+		border-spacing: 0px;
+		BORDER-RIGHT: #737373 1px solid;
+		BORDER-TOP: #737373 1px solid;
+		BORDER-LEFT: #737373 1px solid;
+		BORDER-BOTTOM: #737373 1px solid;
+}
+
+
+TD.TabStyle1
+{
+/*	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+	margin: 1px;
+   
+	border-spacing: 0px;
+*/
+	padding: 3px;
+}
+TD.TabStyleDark
+{
+	BACKGROUND-COLOR: #b3dcb3;
+}
+TD.TabStyleHeader
+{
+	/*FONT-WEIGHT: bold;*/
+	BACKGROUND-COLOR: #73d273;
+}
+
+INPUT.ButtonSimple
+{
+	BACKGROUND-COLOR: #00a318;
+	COLOR: #000000;
+	FONT-SIZE: 14px;
+	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+
+}
+INPUT.Date
+{
+	BACKGROUND-COLOR: #b3dcb3;
+	COLOR: #000000;
+	FONT-SIZE: 14px;
+	WIDTH: 70px;
+	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+
+}
+INPUT.Edit
+{
+    BACKGROUND-COLOR: #b3dcb3;
+    COLOR: #000000;
+    FONT-SIZE: 14px;
+    BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+
+}
+INPUT.200
+{
+	WIDTH: 200px;
+}
+INPUT.ButtonPasive
+{
+	BACKGROUND-COLOR: #00a318;
+	COLOR: #000000;
+	FONT-SIZE: 14px;
+	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+}
+
+FONT.Midle
+{
+	FONT-SIZE:14px;
+	COLOR: #000000;
+}
+FONT.Smal
+{
+	FONT-SIZE:10px;
+	COLOR: #000000;
+}
+FONT.Warning
+{
+	COLOR: #dbf501;
+}
+SELECT.Edit
+{
+    BACKGROUND-COLOR: #595959;
+    COLOR: #000000;
+    FONT-SIZE: 14px;
+    BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+}
+SELECT.200
+{
+    WIDTH: 200px;
+}

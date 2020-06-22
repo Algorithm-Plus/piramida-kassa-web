@@ -1,0 +1,232 @@
+BODY.Default
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Arial;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #262626;
+	BACKGROUND: url(img/background.jpg);
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-BOTTOM: 0px;
+}
+BODY.FrameLeft
+{
+    FONT-SIZE: 16px;
+    FONT-FAMILY: Arial;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #262626;
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-BOTTOM: 0px;
+	MARGIN-RIGHT: 10px;
+}
+
+
+A
+{
+   COLOR: #FFFFFF;
+   text-decoration: none;
+}
+A.Midle
+{
+	FONT-SIZE:14px;
+}
+
+A.SimpleColor
+{
+	COLOR: #e2e2e2;
+}
+
+A.Pasive
+{
+	COLOR: #88886f;
+}
+
+TABLE.NoMargin
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+
+TABLE.Border1
+{
+		border-collapse: collapse;
+		border-spacing: 0px;
+		BORDER-RIGHT: #737373 1px solid;
+		BORDER-TOP: #737373 1px solid;
+		BORDER-LEFT: #737373 1px solid;
+		BORDER-BOTTOM: #737373 1px solid;
+}
+
+
+TD.TabStyle1
+{
+/*	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+	margin: 1px;
+   
+	border-spacing: 0px;
+*/
+	padding: 3px;
+}
+TD.TabStyleDark
+{
+	BACKGROUND-COLOR: #000000;
+}
+TD.TabStyleHeader
+{
+	/*FONT-WEIGHT: bold;*/
+	BACKGROUND-COLOR: #2c2c2c;
+}
+
+INPUT.ButtonSimple
+{
+	BACKGROUND-COLOR: #595959;
+	BACKGROUND: url(img/input.jpg);
+	COLOR: #FFFFFF;
+	FONT-SIZE: 14px;
+	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+
+}
+INPUT.Date
+{
+	BACKGROUND-COLOR: #595959;
+	BACKGROUND: url(img/backgr_date.png);
+	COLOR: #FFFFFF;
+	FONT-SIZE: 14px;
+	TEXT-ALIGN: center;
+	WIDTH: 80px;
+/*	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+*/
+	BORDER: none
+}
+INPUT.DateTime
+{
+	BACKGROUND-COLOR: #595959;
+	BACKGROUND: url(img/backgr_datetime.png);
+	COLOR: #FFFFFF;
+	FONT-SIZE: 14px;
+	WIDTH: 150px;
+	BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+/*
+	BORDER: none
+*/
+  
+}
+INPUT.Edit
+{
+    BACKGROUND-COLOR: #595959;
+    BACKGROUND: url(img/backgr_edit200.png);
+    COLOR: #FFFFFF;
+    FONT-SIZE: 14px;
+    TEXT-ALIGN: center;
+    BORDER-RIGHT: #808681 1px solid;
+    BORDER-TOP: none;
+   BORDER-LEFT: none;
+  BORDER-BOTTOM: #808681 1px solid;
+
+}
+INPUT.200
+{
+	WIDTH: 200px;
+}
+INPUT.i400
+{
+	WIDTH: 200px;
+}
+INPUT.ButtonPasive
+{
+	BACKGROUND-COLOR: #464646;
+	BACKGROUND: url(img/button.png);
+	COLOR: #acac96;
+	FONT-SIZE: 14px;
+/*	COLOR: #88886f;
+ * 	BORDER-RIGHT: #737373 1px solid;
+	BORDER-TOP: #737373 1px solid;
+	BORDER-LEFT: #737373 1px solid;
+	BORDER-BOTTOM: #737373 1px solid;
+*/
+	BORDER: none
+
+}
+FONT.Big
+{
+	FONT-SIZE:18px;
+	COLOR: #e2e2e2;
+}
+FONT.Midle
+{
+	FONT-SIZE:14px;
+	COLOR: #e2e2e2;
+}
+FONT.Smal
+{
+	FONT-SIZE:10px;
+	COLOR: #e2e2e2;
+}
+FONT.Warning
+{
+	COLOR: #dbf501;
+}
+SELECT.Edit
+{
+    BACKGROUND-COLOR: #595959;
+    COLOR: #FFFFFF;
+    FONT-SIZE: 14px;
+    BORDER-RIGHT: #737373 1px solid;
+    BORDER-TOP: #737373 1px solid;
+    BORDER-LEFT: #737373 1px solid;
+    BORDER-BOTTOM: #737373 1px solid;
+}
+SELECT.200
+{
+    WIDTH: 200px;
+}
+
+/* popUp */
+.body{ height:100%; padding:0; margin:0;}
+
+.black_fon {
+  background:#333;
+  display:block;
+  position: absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  z-index:10;
+}
+.popup {
+  position: absolute;
+  z-index:20;
+  display:none;
+  background:#fff;
+  width:200px;
+  height:200px;
+  left:50%;
+  margin-left:-100px;
+  top:50%;
+  margin-top:-100px;
+}
+
+/* menu */
+.hoverRow { background-color: #4994CB; }
+.clickedRow { background-color: #595959; }
