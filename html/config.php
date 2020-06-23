@@ -22,7 +22,7 @@ ini_set("memory_limit","25M");
 
 header('Content-type: text/html; charset=windows-1251');
 
-if (file_exists($_SERVER['DOCUMENT_ROOT'].'config_local.php')){
+if (file_exists($_SERVER['DOCUMENT_ROOT'].'/config_local.php')){
     include('config_local.php');
 } else {
     include('first_start.php');
